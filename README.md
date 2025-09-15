@@ -40,8 +40,8 @@ excel-interviewer/
 1.  Clone the Repository
 
     ```bash
-    git clone [https://github.com/code-to-horizon/Excel_AI_Interviewer.git](https://github.com/code-to-horizon/Excel_AI_Interviewer.git)
-    cd Excel_AI_Interviewer
+    git clone [https://github.com/YOU_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOU_USERNAME/YOUR_REPOSITORY_NAME.git)
+    cd YOUR_REPOSITORY_NAME
     ```
 
 2.  Create a Virtual Environment (Recommended)
