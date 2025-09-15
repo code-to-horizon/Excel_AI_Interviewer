@@ -1,24 +1,24 @@
 # AI-Powered Excel Mock Interviewer
 
-An intelligent, conversational AI agent that conducts mock technical interviews to assess a candidate's proficiency in Microsoft Excel. [cite_start]This project is designed to automate the initial screening process, providing consistent evaluations and detailed feedback[cite: 7, 12, 18].
+An intelligent, conversational AI agent that conducts mock technical interviews to assess a candidate's proficiency in Microsoft Excel. [cite_start]This project is designed to automate the initial screening process, providing consistent evaluations and detailed feedback.
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR_APP_URL_HERE) ## 🌟 Core Features
 
-- [cite_start]**Conversational AI Agent**: The interviewer, "Alex," guides the candidate through a structured interview flow, from introduction to conclusion[cite: 16, 17].
-- **Dynamic Question Engine**: Randomly selects a mix of easy, medium, and hard questions from a predefined JSON file for each interview session.
-- **Intelligent Answer Evaluation**: Uses Google's Gemini LLM to analyze the candidate's answers, assigning a score (1-5) and providing constructive, conversational feedback.
-- **Real-time Video Proctoring**: Utilizes the candidate's webcam and a Hugging Face object detection model to monitor for potential malpractice, such as multiple people in the room or cell phone usage.
-- **Automated Session Termination**: The interview is automatically terminated if the candidate turns off their camera or accumulates 3 proctoring warnings.
-- **Comprehensive Performance Dashboard**: After the interview, a detailed report is generated, showing an overall summary, a question-by-question breakdown of scores, and the feedback received.
-- **User Authentication & Persistence**: A secure login system for candidates, with all interview results saved to a SQLite database for review.
+- Conversational AI Agent: The interviewer, "Alex," guides the candidate through a structured interview flow, from introduction to conclusion.
+- Dynamic Question Engine: Randomly selects a mix of easy, medium, and hard questions from a predefined JSON file for each interview session.
+- Intelligent Answer Evaluation: Uses Google's Gemini LLM to analyze the candidate's answers, assigning a score (1-5) and providing constructive, conversational feedback.
+- Real-time Video Proctoring: Utilizes the candidate's webcam and a Hugging Face object detection model to monitor for potential malpractice, such as multiple people in the room or cell phone usage.
+- Automated Session Termination: The interview is automatically terminated if the candidate turns off their camera or accumulates 3 proctoring warnings.
+- Comprehensive Performance Dashboard: After the interview, a detailed report is generated, showing an overall summary, a question-by-question breakdown of scores, and the feedback received.
+- User Authentication & Persistence: A secure login system for candidates, with all interview results saved to a SQLite database for review.
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: Streamlit
-- **Generative AI**: Google Gemini 1.5 Flash
-- **Video Proctoring**: Streamlit-WebRTC, PyTorch, Hugging Face Transformers (`facebook/detr-resnet-50`)
-- **Database**: SQLite
-- **Core Libraries**: Pandas
+- Frontend: Streamlit
+- Generative AI: Google Gemini 1.5 Flash
+- Video Proctoring: Streamlit-WebRTC, PyTorch, Hugging Face Transformers (`facebook/detr-resnet-50`)
+- Database: SQLite
+- Core Libraries: Pandas
 
 ## 📂 Project Structure
 
@@ -37,27 +37,27 @@ excel-interviewer/
 
 ## 🚀 Local Setup and Installation
 
-1.  **Clone the Repository**
+1.  Clone the Repository
 
     ```bash
     git clone [https://github.com/code-to-horizon/Excel_AI_Interviewer.git](https://github.com/code-to-horizon/Excel_AI_Interviewer.git)
-    cd YOUR_REPOSITORY_NAME
+    cd Excel_AI_Interviewer
     ```
 
-2.  **Create a Virtual Environment** (Recommended)
+2.  Create a Virtual Environment (Recommended)
 
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
 
-3.  **Install Dependencies**
+3.  Install Dependencies
 
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Set Up API Key**
+4.  Set Up API Key
 
     - Create a file: `.streamlit/secrets.toml`.
     - Add your Google API key to it:
@@ -65,7 +65,7 @@ excel-interviewer/
       GOOGLE_API_KEY = "YOUR_API_KEY_HERE"
       ```
 
-5.  **Run the Application**
+5.  Run the Application
     The application database `candidates.db` is pre-populated with sample users.
     ```bash
     streamlit run app.py
