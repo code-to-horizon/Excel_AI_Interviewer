@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "topic": "Basic Formulas",
+        "question": "What is the difference between the SUM and COUNT functions in Excel?",
+        "level": "easy"
+    },
+    {
+        "id": 2,
+        "topic": "Cell Referencing",
+        "question": "What is an absolute reference versus a relative reference in Excel, and how do you create one? Please provide a simple example.",
+        "level": "easy"
+    },
+    {
+        "id": 3,
+        "topic": "Conditional Formatting",
+        "question": "How would you apply conditional formatting to a list of student scores to highlight all scores below 50 in red?",
+        "level": "easy"
+    },
+    {
+        "id": 4,
+        "topic": "Basic Functions",
+        "question": "Explain the purpose of the AVERAGE and MAX functions.",
+        "level": "easy"
+    },
+    {
+        "id": 5,
+        "topic": "Lookup Functions",
+        "question": "What is the difference between VLOOKUP and HLOOKUP?",
+        "level": "mid"
+    },
+    {
+        "id": 6,
+        "topic": "Pivot Tables",
+        "question": "Imagine you are given a sales dataset with columns for 'Date', 'Region', 'Product', and 'Sales Amount'. How would you use a Pivot Table to show the total sales for each region?",
+        "level": "mid"
+    },
+    {
+        "id": 7,
+        "topic": "Logical Functions",
+        "question": "Explain how you would use the IF function to assign 'Pass' or 'Fail' to students based on a score of 60.",
+        "level": "mid"
+    },
+    {
+        "id": 8,
+        "topic": "Text Functions",
+        "question": "How would you combine a first name in cell A1 and a last name in cell B1 into a full name in cell C1?",
+        "level": "mid"
+    },
+    {
+        "id": 9,
+        "topic": "Advanced Lookups",
+        "question": "In what scenario would you use INDEX/MATCH instead of VLOOKUP, and why is it often considered more powerful?",
+        "level": "hard"
+    },
+    {
+        "id": 10,
+        "topic": "Data Validation",
+        "question": "Describe a situation where you would use Data Validation in Excel. How would you create a dropdown list for a specific cell?",
+        "level": "mid"
+    },
+    {
+        "id": 11,
+        "topic": "Power Query",
+        "question": "What is Power Query (Get & Transform Data) and what is its primary purpose in Excel?",
+        "level": "hard"
+    },
+    {
+        "id": 12,
+        "topic": "Array Formulas",
+        "question": "What is an array formula (CSE formula) and can you give an example of a problem that it can solve which a normal formula cannot?",
+        "level": "hard"
+    }
+]

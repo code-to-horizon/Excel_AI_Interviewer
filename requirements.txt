@@ -1,0 +1,9 @@
+streamlit
+google-generativeai
+pandas
+streamlit-webrtc
+torch
+transformers
+Pillow
+timm
+streamlit-modal
